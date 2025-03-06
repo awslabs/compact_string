@@ -1,0 +1,20 @@
+[package]
+name = "compact_string"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70.0"
+description = "Compact representation of UTF-8 Strings that are immutable and less than 256 bytes in length."
+license = "Apache-2.0"
+homepage = "https://github.com/awslabs/compact_string"
+repository = "https://github.com/awslabs/compact_string"
+readme = "README.md"
+keywords = ["string", "compact", "small", "memory", "immutable"]
+categories = ["encoding", "parsing", "memory-management", "text-processing", "caching"]
+
+[dependencies]
+serde = "1"
+thiserror = "1.0.24"
+
+[dev-dependencies]
+rand = "0.8.4"
+serde_json = "1.0.74"
